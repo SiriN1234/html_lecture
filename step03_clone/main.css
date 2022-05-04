@@ -1,0 +1,61 @@
+body {
+    backgroun-image : url("https://raw.githubusercontent.com/ParkYoungWoong/door-selector/main/images/bg.jpg");
+    background-size : cover;
+    background-repeat : no-repeat;
+}
+.container {
+    padding : 50px 0;
+}
+.ice_cubes {
+    display : flex;
+    flex-wrap :wrap;
+    justify-content : left;
+    max_width : 600px;
+    margin : 0 auto;
+    padding : 60px 100px;
+}
+.ice_cube {
+    width : 180px;
+    height : 170px;
+    margin : 10px;
+    background-color : #555;
+    border : 3px solid #fff;
+    transform : skewX(-10deg);
+    border-radius : 30px;
+    box_sizing : content-box;
+    transition : transform .3s, background-color .3s;
+    overflow : hidden;
+}
+.ice_cube:hover {
+    background-color : olive;
+    transform: skewX(-7deg) scale(1.2);
+    z-index: 0.5;
+}
+.ice_cube .image {
+    width: 130%;
+    height: 100%;
+    background-size: cover;
+    transform: translateX(-12px) skewX(7deg);
+    background-position: center;
+}
+
+.ice_cube:nth-child(1) .image {background-image : url("https://media.istockphoto.com/photos/ice-cubes-picture-id177131518?s=612x612");}
+.ice_cube:nth-child(2) .image {background-image : url("https://media.istockphoto.com/photos/three-ice-cubes-picture-id522205279?s=612x612");}
+.ice_cube:nth-child(3) .image {background-image : url("https://media.istockphoto.com/photos/three-ice-cubes-picture-id153373933?s=612x612");}
+.ice_cube:nth-child(4) .image {background-image : url("https://media.istockphoto.com/photos/ice-cubes-on-white-background-picture-id474264052?s=612x612");}
+.ice_cube:nth-child(5) .image {background-image : url("https://media.istockphoto.com/photos/ice-cubes-picture-id172851360?s=612x612");}
+
+h1.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(223, 13, 13);
+    text-align: center;
+    background-color: skyblue;
+}
+
+.link {
+    font-size: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}

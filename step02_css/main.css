@@ -1,0 +1,51 @@
+div.weather_title {
+    width: 800px;
+    height: 590px;
+    background-color: navajowhite;
+}
+
+div.fruits {
+    width: 100px;
+    height: 110px;
+    background-color: skyblue;
+}
+
+p {
+    font-size: larger;
+}
+
+#song {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(153, 13, 71);
+}
+
+input:focus {
+    background-color: orange;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 10px;
+}
+
+table th {
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+table td {
+    width: 350px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+table .even {
+    background: rgb(247, 10, 100);
+}
