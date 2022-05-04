@@ -1,0 +1,5 @@
+.ice_cube:nth-child(1) .image {background-image : url("https://media.istockphoto.com/photos/ice-cubes-picture-id177131518?s=612x612");}
+.ice_cube:nth-child(2) .image {background-image : url("https://media.istockphoto.com/photos/three-ice-cubes-picture-id522205279?s=612x612");}
+.ice_cube:nth-child(3) .image {background-image : url("https://media.istockphoto.com/photos/three-ice-cubes-picture-id153373933?s=612x612");}
+.ice_cube:nth-child(4) .image {background-image : url("https://media.istockphoto.com/photos/ice-cubes-on-white-background-picture-id474264052?s=612x612");}
+.ice_cube:nth-child(5) .image {background-image : url("https://media.istockphoto.com/photos/ice-cubes-picture-id172851360?s=612x612");}
