@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="with = devie-width, initial-scale = 1.0">
+    <script src = "./myscript2.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+    <h1 id = demo>
+    <script>
+        var A = Math.floor(Math.random() * 10) + 1;
+        var B = Math.floor(Math.random() * 10) + 1;
+
+        document.write(A + " + " + B);
+
+        var correctAnswer = A + B;
+    </script>
+    </h1>
+    <p> 답변을 입력하세요 </p>
+    <input id = "answer">
+    <button type = "button" onclick = "returnAnswer()">제출</button>
+    <button type = "button" onclick = "newQuestion()">새로운 문제 클릭</button>
+    <br>
+    <p id = "YN"></p>
+    </center>
+</body>
+
+</html>
